@@ -10,7 +10,7 @@ public class Exercicio07 {
 
         if ((num == 2) || (num == 3) || (num == 5)){
             System.out.printf("O número %d é primo! %n", num);
-        } else if (((num % 2) != 0 && (num % 3) != 0 && (num % 5) != 0 )) {
+        } else if (((num % 2) != 0 && (num % 3) != 0 && (num % 5) != 0 ) && (num != 1) && (num > 0)) {
             System.out.printf("O número %d é primo! %n", num);
         } else {
             System.out.printf("O número %d não é primo! %n", num);
