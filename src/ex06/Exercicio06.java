@@ -18,6 +18,8 @@ public class Exercicio06 {
         System.out.print("Digite o valor final: ");
         int valorFinal = sc.nextInt();
 
+        // Considerei o intervalo aberto tanto para o valor Inicial quanto para o Valor Final
+        //
         int soma = 0;
         for (int i = valorInicial; i < valorFinal; i ++){
             if ((i % 2) != 0){
