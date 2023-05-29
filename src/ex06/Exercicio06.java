@@ -18,6 +18,13 @@ public class Exercicio06 {
         System.out.print("Digite o valor final: ");
         int valorFinal = sc.nextInt();
 
+        if (valorFinal < valorInicial){
+            System.out.println("------------------------------");
+            System.out.println("Intervalo de valores inválidos");
+            System.out.println("O programa será encerrado");
+            System.exit(0);
+        }
+
         // Considerei o intervalo aberto tanto para o valor Inicial quanto para o Valor Final
         //
         int soma = 0;
