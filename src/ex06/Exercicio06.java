@@ -25,17 +25,19 @@ public class Exercicio06 {
             System.exit(0);
         }
 
-        // Considerei o intervalo aberto tanto para o valor Inicial quanto para o Valor Final
-        //
+        // Considerei o intervalo incluindo tanto para o valor Inicial quanto para o Valor Final
+        System.out.println("-------------------------------------");
+        System.out.printf("Os números impares entre %d e %d são: %n",valorInicial, valorFinal);
         int soma = 0;
-        for (int i = valorInicial; i < valorFinal; i ++){
+        for (int i = valorInicial; i <= valorFinal; i ++){
             if ((i % 2) != 0){
                 soma += i;
+                System.out.printf("%d | ", i);
             }
         }
 
-        System.out.println("---------------------------------------------");
-        System.out.printf("A soma dos números impares entre %d e %d é: %d %n", valorInicial, valorFinal, soma);
+        System.out.println("\n---------------------------------------------");
+        System.out.printf("A soma desses números ímpares é: %d %n", soma);
         System.out.println("---------------------------------------------");
 
     }
